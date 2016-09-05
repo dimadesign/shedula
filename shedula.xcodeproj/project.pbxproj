@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		32FC9F0E1D795DBC00F56C40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC9F0D1D795DBC00F56C40 /* AppDelegate.swift */; };
-		32FC9F101D795DBC00F56C40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC9F0F1D795DBC00F56C40 /* ViewController.swift */; };
+		32FC9F101D795DBC00F56C40 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC9F0F1D795DBC00F56C40 /* TableViewController.swift */; };
 		32FC9F131D795DBC00F56C40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FC9F111D795DBC00F56C40 /* Main.storyboard */; };
 		32FC9F151D795DBC00F56C40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FC9F141D795DBC00F56C40 /* Assets.xcassets */; };
 		32FC9F181D795DBC00F56C40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FC9F161D795DBC00F56C40 /* LaunchScreen.storyboard */; };
+		32FC9F201D795E5D00F56C40 /* ClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC9F1F1D795E5D00F56C40 /* ClassModel.swift */; };
+		32FC9F221D795E6B00F56C40 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC9F211D795E6B00F56C40 /* EditViewController.swift */; };
+		32FC9F241D795E7600F56C40 /* DbHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC9F231D795E7600F56C40 /* DbHelper.swift */; };
+		32FC9F261D795EBE00F56C40 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FC9F251D795EBE00F56C40 /* Cell.swift */; };
+		32FC9F281D795EE200F56C40 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32FC9F271D795EE200F56C40 /* Cell.xib */; };
+		5AD86D8F6E7B58A9EF1AFCEC /* Pods_shedula.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A81B99DB497A3FF7E803C81 /* Pods_shedula.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A81B99DB497A3FF7E803C81 /* Pods_shedula.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shedula.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FC9F0A1D795DBC00F56C40 /* shedula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shedula.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FC9F0D1D795DBC00F56C40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32FC9F0F1D795DBC00F56C40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32FC9F0F1D795DBC00F56C40 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		32FC9F121D795DBC00F56C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32FC9F141D795DBC00F56C40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32FC9F171D795DBC00F56C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32FC9F191D795DBC00F56C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FC9F1F1D795E5D00F56C40 /* ClassModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassModel.swift; sourceTree = "<group>"; };
+		32FC9F211D795E6B00F56C40 /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		32FC9F231D795E7600F56C40 /* DbHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DbHelper.swift; sourceTree = "<group>"; };
+		32FC9F251D795EBE00F56C40 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		32FC9F271D795EE200F56C40 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		8E1D5D2F28EC47469B79FFDD /* Pods-shedula.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shedula.release.xcconfig"; path = "Pods/Target Support Files/Pods-shedula/Pods-shedula.release.xcconfig"; sourceTree = "<group>"; };
+		C8FCA627F757BBE7DBA6C322 /* Pods-shedula.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shedula.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shedula/Pods-shedula.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD86D8F6E7B58A9EF1AFCEC /* Pods_shedula.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2958EE3FE79DDF5B59C376EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8FCA627F757BBE7DBA6C322 /* Pods-shedula.debug.xcconfig */,
+				8E1D5D2F28EC47469B79FFDD /* Pods-shedula.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		32FC9F011D795DBC00F56C40 = {
 			isa = PBXGroup;
 			children = (
 				32FC9F0C1D795DBC00F56C40 /* shedula */,
 				32FC9F0B1D795DBC00F56C40 /* Products */,
+				2958EE3FE79DDF5B59C376EA /* Pods */,
+				5D6287723FD06EE79EEDFA7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +81,26 @@
 			isa = PBXGroup;
 			children = (
 				32FC9F0D1D795DBC00F56C40 /* AppDelegate.swift */,
-				32FC9F0F1D795DBC00F56C40 /* ViewController.swift */,
+				32FC9F0F1D795DBC00F56C40 /* TableViewController.swift */,
+				32FC9F231D795E7600F56C40 /* DbHelper.swift */,
+				32FC9F251D795EBE00F56C40 /* Cell.swift */,
+				32FC9F271D795EE200F56C40 /* Cell.xib */,
+				32FC9F1F1D795E5D00F56C40 /* ClassModel.swift */,
+				32FC9F211D795E6B00F56C40 /* EditViewController.swift */,
 				32FC9F111D795DBC00F56C40 /* Main.storyboard */,
 				32FC9F141D795DBC00F56C40 /* Assets.xcassets */,
 				32FC9F161D795DBC00F56C40 /* LaunchScreen.storyboard */,
 				32FC9F191D795DBC00F56C40 /* Info.plist */,
 			);
 			path = shedula;
+			sourceTree = "<group>";
+		};
+		5D6287723FD06EE79EEDFA7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A81B99DB497A3FF7E803C81 /* Pods_shedula.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32FC9F1C1D795DBC00F56C40 /* Build configuration list for PBXNativeTarget "shedula" */;
 			buildPhases = (
+				F4DA662F268D6AA720B67335 /* [CP] Check Pods Manifest.lock */,
 				32FC9F061D795DBC00F56C40 /* Sources */,
 				32FC9F071D795DBC00F56C40 /* Frameworks */,
 				32FC9F081D795DBC00F56C40 /* Resources */,
+				78F4B90B9B35CF59265EBB13 /* [CP] Embed Pods Frameworks */,
+				72B03D58E5663D7BE116D41C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +138,7 @@
 				TargetAttributes = {
 					32FC9F091D795DBC00F56C40 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = L666XE3E49;
 					};
 				};
 			};
@@ -122,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FC9F281D795EE200F56C40 /* Cell.xib in Resources */,
 				32FC9F181D795DBC00F56C40 /* LaunchScreen.storyboard in Resources */,
 				32FC9F151D795DBC00F56C40 /* Assets.xcassets in Resources */,
 				32FC9F131D795DBC00F56C40 /* Main.storyboard in Resources */,
@@ -130,13 +174,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		72B03D58E5663D7BE116D41C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shedula/Pods-shedula-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78F4B90B9B35CF59265EBB13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shedula/Pods-shedula-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4DA662F268D6AA720B67335 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32FC9F061D795DBC00F56C40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32FC9F101D795DBC00F56C40 /* ViewController.swift in Sources */,
+				32FC9F221D795E6B00F56C40 /* EditViewController.swift in Sources */,
+				32FC9F201D795E5D00F56C40 /* ClassModel.swift in Sources */,
+				32FC9F101D795DBC00F56C40 /* TableViewController.swift in Sources */,
+				32FC9F241D795E7600F56C40 /* DbHelper.swift in Sources */,
 				32FC9F0E1D795DBC00F56C40 /* AppDelegate.swift in Sources */,
+				32FC9F261D795EBE00F56C40 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,23 +345,31 @@
 		};
 		32FC9F1D1D795DBC00F56C40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8FCA627F757BBE7DBA6C322 /* Pods-shedula.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = shedula/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test-1.shedula";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		32FC9F1E1D795DBC00F56C40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1D5D2F28EC47469B79FFDD /* Pods-shedula.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = shedula/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test-1.shedula";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -288,6 +392,7 @@
 				32FC9F1E1D795DBC00F56C40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
